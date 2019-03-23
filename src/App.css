@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-top: 15px;
 }
 
 .App-logo {
@@ -22,6 +23,21 @@
 .App-link {
   color: #61dafb;
 }
+
+.App .navbar-nav{
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.App .navbar {
+  flex-direction: row;
+  
+}
+
 
 @keyframes App-logo-spin {
   from {
